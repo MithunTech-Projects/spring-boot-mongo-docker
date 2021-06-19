@@ -44,5 +44,5 @@ volumes:
     
 networks:
   springappnetwork:
-    #driver: bridge
-    external: true
+    driver: bridge
+    #external: true
