@@ -39,8 +39,8 @@ services:
     
 volumes:
   mongodb:
-    #driver: local
-    external: true
+    driver: local
+    #external: true
     
 networks:
   springappnetwork:
